@@ -6,13 +6,16 @@ EasyConnect的客户端程序，包括系统服务程序和使用界面部分。
 1. 确保EasyConnect的系统服务处于运行中。
 2. 修改easyconnect.py文件，填入你的连接地址/用户名/密码。
 3. 在命令行
-   `python3 easyconnect.py`
+   <blockquote>
+       <p>python3 easyconnect.py</p>
+   </blockquote>
    或在你的.py文件中
-   `
-   import easyconnect
-   easyconnect.start()
-   ...
-   easyconnect.stop()`
+   <blockquote>
+       <p>import easyconnect</p>
+       <p>easyconnect.start()</p>
+       <p>...</p>
+       <p>easyconnect.stop()</p>
+   </blockquote>
    
 ### 免责声明
 1. EasyConnect的一切权利属深信服所有，本程序开发者不做任何保证，使用者使用本程序产生的一切法律纠纷由使用者自行承担。
